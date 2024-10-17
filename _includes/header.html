@@ -22,7 +22,12 @@
 
   {% if site.data.navigation %}
     <nav class="site-nav">
-      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <ul>
+        <li><a href="{{ site.baseurl }}/about/">About Me</a></li>
+        <li><a href="{{ site.baseurl }}/projects/">Projects</a></li>
+        <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
+      </ul>
+      <!-- <input type="checkbox" id="nav-trigger" class="nav-trigger" />
       <label for="nav-trigger" title="nav-trigger">
         <span class="menu-icon">
           <svg viewBox="0 0 18 15" width="18px" height="15px">
@@ -48,7 +53,7 @@
             {% endif %}
           {%- endif -%}
         {%- endfor -%}
-      </ul>
+      </ul> -->
     </nav>
   {% endif %}
 </div>

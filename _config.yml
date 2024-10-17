@@ -2,6 +2,11 @@ title: Ubaid Ur Rehman
 description: Aspiring PhD Candidate
 theme: jekyll-theme-minimal  # Change this to the theme you want
 
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: ngzhio/jekyll-theme-hamilton
+
 # Optional navigation links
 nav:
   - title: About

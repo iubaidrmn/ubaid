@@ -202,3 +202,8 @@ ul.task-list {
     padding-left: $spacing-unit;
   }
 }
+
+.sidebar-section #clustrmaps {
+  max-width: 100%; /* Ensures it doesn't exceed sidebar width */
+  margin: 0 auto;
+}
